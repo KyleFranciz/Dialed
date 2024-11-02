@@ -1,0 +1,86 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0; /* helps with the getting rid of the gaps on the page */
+    padding: 0;
+}
+
+/* controls the background styles */
+body {
+    background-color: #FFF3E2;
+}
+
+
+
+/* container for the logo */
+.logo-case {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15px;
+}
+
+/* controls the style for the logo */
+#logo {
+    height: 20px;
+}
+
+/* controls the dimension of the time remaining */
+.time-remaining-case {
+    display: flex;
+    justify-content: center;
+    padding-top: 75px;
+    /*background-color: red;*/
+    width: 100%;
+    right: 0;
+}
+
+/* controls the styles for the text of "Time Remaining" */
+#time-remaining {
+    font-weight: bold;
+    opacity: 40%;
+}
+
+/* controls the styles of the '25:00' timer */
+h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 150px;
+}
+
+/* controls the styles of all the buttons on the page */
+button {
+    background-color: #FDA24E;
+    color: white;
+    border: none;
+    padding: 12px 40px; 
+    border-radius: 100px;
+    /* box-shadow: rgba(5px, 5px, 2px, 0.15px); (edit the box shadow */
+    margin: 0 5px;
+    font-size: .6rem;
+}
+
+/* controls the hover of the buttons */
+button:hover {
+    cursor: pointer;
+    background-color: #ef9b4c;
+}
+
+/* helps control the seperation of the box and the buttons for the layout*/
+.button-bx {
+    display: flex;
+    width: 100%px;
+    height: 0px;
+    justify-content: center;
+    align-items: center;
+}
+
+/* helps with the container that helps the div holding the 25:00 style */
+#timer {
+    display: flex; /* Starts the flexible layout option */
+    justify-content: center; /* aligns the items on the x Axis*/
+    align-items: center; /* align the items on the y-axis */
+    width: 100%;
+    height: 175px;
+    /*background-color: green;*/
+    padding-bottom: 15px; /* Contains the dimensions of the container for the timer 25:00 */
+}
+
